@@ -1,0 +1,32 @@
+{
+    "name": "Mitsuki AI",
+    "description": "Mitsuki AI telegram chatbot",
+    "version": "0.1.0",
+    "keywords": [
+        "telegram",
+        "chatbot",
+        "mitsuki"
+    ],
+    "env": {
+        "TOKEN": {
+            "description": "Your bot token. Get one from @BotFather duh",
+            "required": true,
+            "value": ""
+        },
+        "AI_TOKEN": {
+            "description": "Your AI token. Get one from @BotFather duh",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_URI": {
+            "description": "Your mongodb url. Get one from @BotFather duh",
+            "required": true,
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/go"
+        }
+    ]
+}
