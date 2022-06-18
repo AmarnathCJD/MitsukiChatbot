@@ -14,7 +14,7 @@
             "value": ""
         },
         "AI_TOKEN": {
-            "description": "Your AI token. Get one from @BotFather duh",
+            "description": "Your AI token. Get from pandorabots.ai",
             "required": true,
             "value": ""
         },
